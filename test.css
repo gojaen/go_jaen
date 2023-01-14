@@ -3,77 +3,101 @@ body {
   height: 100vh;
 }
 
-.ul1 {
+ul.ul1 {
   display: flex;
+  list-style: none;
+  padding-left: 0px;
 }
 
 .header-wrapper {
-  width: 100%;
+  width: 92.5%;
   height: 100px;
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 5% 0 2.5%;
   padding: 0 20px;
 }
 
 .content-wrapper {
-  width: 80%;
-  height: 100%;
-  background-color: seashell;
+  width: 60%;
+  height: 95%;
+  background-image: url("./bg1.jpg");
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  align-content: flex-start;
   flex-wrap: wrap;
-  padding: 0 20%;
+  padding: 10% 20% 0 20%;
 }
 
 a.title {
   text-decoration: none;
-  color: black;
+  color: rgb(45, 45, 45);
   font-size: 30px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
 
 .menu {
+  color: rgb(45, 45, 45);
   margin: 0 20px;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .login {
+  color: rgb(45, 45, 45);
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 button.start {
   border: 0;
   outline: none;
-  font-size: 15px;
-  font-weight: normal;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  background: rgb(45, 45, 45);
+  color: white;
+  padding: 13px 25px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+button.start1 {
+  border: 0;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   margin: 2px;
-  background: black;
-  color: white;
-  padding: 10px;
+  background: white;
+  color: rgb(45, 45, 45);
+  padding: 20px 25px;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .content1 {
-  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin: 10px 0;
 }
 
 .content2 {
-  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
   font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin: 10px 20% 35px 20%;
 }
