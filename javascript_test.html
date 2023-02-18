@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="b1">색상 변경</button>
+    <script type="text/javascript">
+      let name = prompt("이름 입력", "");
+      let age = prompt("나이 입력", "");
+      let area = prompt("지역 입력", "");
+      alert("이름: " + name + " 나이: " + age + " 거주 지역: " + area);
+
+      document.getElementById("b1").onclick = function () {
+        let colorCode = "#" + Math.round(Math.random() * 0xffffff).toString(16);
+        this.style.backgroundColor = colorCode;
+      };
+    </script>
+  </body>
+</html>
